@@ -16,7 +16,7 @@
     --resumo-div-bg: linear-gradient(0deg, 0%,  rgba(255, 255, 255, 0.95) 100%,  rgba(255, 255, 255, 0.95) 100%); 
     --media-bg: linear-gradient(180deg, #4d21c9 0%, #2521c900 100%, #2521c900 100%);
      --reacao-bg: #FF5555;
-     
+
      --memoria-bg: #FFB21E;
        
      --verbal-bg: #00Bb8f;
@@ -174,7 +174,7 @@
                         grid-template-columns: 1fr 1fr;
                         width: 736px;
                         background: var(--white);
-                        border-radius: 3.2rem 0 0 3.2rem;
+                        border-radius: 3.2rem;
                         }
                         
                         .resultado {
@@ -216,11 +216,25 @@
                             }
                             .resumo {
                                 padding: 3.8rem 4rem;
+                                border-radius: 3.2rem;
                             }
 
                                 .resumo h2 {
                                 font-size: 2.4rem;
                                 margin-bottom: 3rem;
                                 }
-                            
+                                .resumo div {
+                                font-size: 1.8rem;
+                                
+                                }
+                                
+                                .resumo button {
+                                margin-top: 2.4rem;
+                                
+                                }
+                                
+                                .resumo button:hover {
+                                background: var(--resultado-bg);
+                                cursor: pointer;
+                                }
                     }
