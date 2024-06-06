@@ -12,8 +12,16 @@
     --white:#FFFB;
     
     --light-blue: #CAC9FFF;
-    
-    }
+    --dark-navy: #303b59;
+    --resumo-div-bg: linear-gradient(0deg,rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%); 
+
+     --reacao-bg: #FF55558;
+
+     --memoria-bg: #FFB21ER;
+       
+     --verbal-bg:#00BB8F8;
+     --visual-bg: #112506;
+}
     
     body {
     
@@ -75,3 +83,51 @@
         
         color: var(--light-blue);
         }
+
+        .resumo {
+            padding: 2.4rem 3.2rem;
+            }
+            
+            .resumo h2 {
+            color: var(--dark-navy);
+            font-size: 1.8rem;
+            margin-bottom: 2.5rem;
+            }
+            
+            .resumo > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.6rem;
+            border-radius: 1.2rem;
+            margin-bottom: 1.6rem;
+            }
+            
+            .resumo > div div {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            }
+            .resumo_reacao {
+              background: var(--reacao-bg) var(--resumo-div-bg);
+                color: var(--reacao-bg);
+                
+                }
+                
+                .resumo_memoria {
+                
+                background: var(--memoria-bg) var(--resumo-div-bg);
+                color: var(--memoria-bg)
+                
+                }
+                
+                .resumo_verbal {
+                background: var(--verbal-bg) var(--resumo-div-bg);
+                color: var(--verbal-bg)
+                
+                }
+                
+                .resumo_visual {
+                background: var(--visual-bg) var(--resumo-div-bg);
+                color: var(--visual-bg);
+                }
